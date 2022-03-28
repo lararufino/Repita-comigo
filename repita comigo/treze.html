@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 13</title>
+</head>
+<body>
+    <script>
+        //13 - Escreva um programa para imprimir todas as tabuadas de 1 a N. N será informado pelo usuário.
+
+        var quantas = parseInt(prompt("Quantas tabuadas deseja saber?"));
+
+        for (i = 1; i <= quantas; i++) {
+            var num = i;
+            document.write("Tabuada do: " + i + "<br/>");
+            for (y = 1; y <= 10; y++) {
+                document.write(y + " x " + i + "= " + y * num + "<br/>")
+            };
+        };
+    </script>
+</body>
+</html>
